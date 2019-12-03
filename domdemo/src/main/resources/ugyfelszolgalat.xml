@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ugyfelszolgalat
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ugyfelszsema.xsd">
+    
+    <csopvez ugyfelszam="MT766099" nev="T. Hanks"/>
+
+    <operator felh="anh542" nev="M. Anna" szgep="BD12"/>
+    <operator felh="ofn671" nev="S. Tamas" szgep="PC86"/>
+    <operator felh="mnf942" nev="K. Zsolt" />
+    <operator felh="bui377" nev="H. Adam"  szgep="OK56"/>
+    
+    <ugyfel nev="H. Anna" ugyfelszam="MT520797"/>
+    <ugyfel nev="Zs. Bence" ugyfelszam="MT413012"/>
+    <ugyfel nev="M. Zsolt" ugyfelszam="MT163033"/>
+    <ugyfel nev="E. Adam" ugyfelszam="MT941651"/>
+    
+    <reklamacio szam="3584" ugyszam="6454629" operator="anh542"/>
+    <reklamacio szam="2797" ugyszam="1899765" operator="mnf942"/>
+    <reklamacio szam="4147" ugyszam="2020521" operator="bui377"/>    
+    <reklamacio szam="5084" ugyszam="9031119" operator="ofn671"/>   
+    <reklamacio szam="7515" ugyszam="7294552" operator="bui377"/>   
+    
+    <ugy ugyszam="6454629"  tipus="számla" megjegy="késedelem" ugyfel="MT520797"/>
+    <ugy ugyszam="9031119"  tipus="hiba" megjegy="kábel szakadás" ugyfel="MT413012"/>
+    <ugy ugyszam="2020521"  tipus="hiba" megjegy="késedelem" ugyfel="MT163033"/>
+    <ugy ugyszam="1899765"  tipus="számla" megjegy="túlfizetés" ugyfel="MT941651"/>
+    <ugy ugyszam="7294552"  tipus="számla" megjegy="késedelem" ugyfel="MT163033"/>
+</ugyfelszolgalat>
